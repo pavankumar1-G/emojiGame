@@ -1,0 +1,36 @@
+/* Write your code here. */
+.list-item-card {
+  background-color: #ffffff33;
+  border-radius: 20px;
+  border: 3px solid #ffffff30;
+  padding: 10px;
+  height: 80px;
+  width: 80px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+}
+.emoji-btn {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+}
+.emoji {
+  height: 50px;
+  width: 50px;
+}
+@media screen and (min-width: 768px) {
+  .list-item-card {
+    height: 150px;
+    width: 150px;
+    border-radius: 40px;
+    margin: 6px;
+    padding: 20px;
+  }
+  .emoji {
+    height: 90px;
+    width: 90px;
+  }
+}
